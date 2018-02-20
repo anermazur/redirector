@@ -1,4 +1,5 @@
 ![Redirector Logo](redirector-logo-light.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fanermazur%2Fredirector.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fanermazur%2Fredirector?ref=badge_shield)
 
 # Redirector
 
@@ -47,3 +48,7 @@ Any changes to the model are saved in a pending changes state.  This allows one 
 ### Redirector Admin UX Offline mode
 
 In order to let administrators modify the model when there is no connection to the Zookeeper cluster, the Admin UX works in an Offline Mode and keeps all information in a browser index DB.  Administrators can download the Redirector Core backup and scp it to Redirector GW servers.  After the Redirector GW servers are restarted, the model produced by Offline Mode will be applied as the Last Known Good and will be used until the Zookeeper cluster is restored.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fanermazur%2Fredirector.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fanermazur%2Fredirector?ref=badge_large)
