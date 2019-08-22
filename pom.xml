@@ -158,7 +158,7 @@
         <snapshotRepositoryUrl>PleaseEnterYourSnapshotRepositoryUrl</snapshotRepositoryUrl>
         <sonar.maven.plugin.version>3.1.1</sonar.maven.plugin.version>
         <source>1.8</source>
-        <spring.version>4.2.3.RELEASE</spring.version>
+        <spring.version>4.2.9.RELEASE</spring.version>
         <surefire.plugin.version>2.18.1</surefire.plugin.version>
         <thucydides.version>0.9.268</thucydides.version>
         <urlrewritefilter.version>4.0.3</urlrewritefilter.version>
@@ -752,7 +752,7 @@
             <id>Docker-Linux</id>
             <properties>
                 <docker.host>unix:///var/run/docker.sock</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
         <profile>
@@ -766,14 +766,14 @@
             <id>Docker-HyperV</id>
             <properties>
                 <docker.host>tcp://localhost:2375</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
         <profile>
             <id>Docker-MacOS-HyperV</id>
             <properties>
                 <docker.host>unix:///var/run/docker.sock</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
     </profiles>
