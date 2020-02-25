@@ -92,11 +92,11 @@
     <properties>
         <cert.path>${env.HOMEDRIVE}${env.HOMEPATH}/.docker/machine/certs</cert.path>
         <commons.codec.version>1.9</commons.codec.version>
-        <commons.collections.version>3.2.1</commons.collections.version>
+        <commons.collections.version>3.2.2</commons.collections.version>
         <commons.configuration.version>1.10</commons.configuration.version>
         <commons.lang.version>3.3.2</commons.lang.version>
         <commons.net.version>3.1</commons.net.version>
-        <commons.validator.version>1.4.1</commons.validator.version>
+        <commons.validator.version>1.5.0</commons.validator.version>
         <curator.version>2.10.0</curator.version>
         <curator.x.discovery.server.version>2.4.2</curator.x.discovery.server.version>
         <dataservice.version>${project.version}</dataservice.version>
@@ -752,7 +752,7 @@
             <id>Docker-Linux</id>
             <properties>
                 <docker.host>unix:///var/run/docker.sock</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
         <profile>
@@ -766,14 +766,14 @@
             <id>Docker-HyperV</id>
             <properties>
                 <docker.host>tcp://localhost:2375</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
         <profile>
             <id>Docker-MacOS-HyperV</id>
             <properties>
                 <docker.host>unix:///var/run/docker.sock</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
     </profiles>
