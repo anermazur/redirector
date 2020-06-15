@@ -92,7 +92,7 @@
     <properties>
         <cert.path>${env.HOMEDRIVE}${env.HOMEPATH}/.docker/machine/certs</cert.path>
         <commons.codec.version>1.9</commons.codec.version>
-        <commons.collections.version>3.2.1</commons.collections.version>
+        <commons.collections.version>3.2.2</commons.collections.version>
         <commons.configuration.version>1.10</commons.configuration.version>
         <commons.lang.version>3.3.2</commons.lang.version>
         <commons.net.version>3.1</commons.net.version>
