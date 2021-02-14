@@ -146,7 +146,7 @@
         <pitest.version>1.1.7</pitest.version>
         <powermock.version>1.6.3</powermock.version>
         <repositoryUrl>PleaseEnterYourRepositoryUrl</repositoryUrl>
-        <selenium.version>2.53.0</selenium.version>
+        <selenium.version>3.13.0</selenium.version>
         <skip.api.integration.test>true</skip.api.integration.test>
         <skip.core.integration.test>true</skip.core.integration.test>
         <skip.tools.integration.test>true</skip.tools.integration.test>
@@ -752,7 +752,7 @@
             <id>Docker-Linux</id>
             <properties>
                 <docker.host>unix:///var/run/docker.sock</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
         <profile>
@@ -766,14 +766,14 @@
             <id>Docker-HyperV</id>
             <properties>
                 <docker.host>tcp://localhost:2375</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
         <profile>
             <id>Docker-MacOS-HyperV</id>
             <properties>
                 <docker.host>unix:///var/run/docker.sock</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
     </profiles>
