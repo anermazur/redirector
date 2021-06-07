@@ -122,7 +122,7 @@
         <jstl.version>1.2</jstl.version>
         <junit.dataprovider.version>1.5.0</junit.dataprovider.version>
         <junit.version>4.12</junit.version>
-        <logback.version>1.1.2</logback.version>
+        <logback.version>1.2.0</logback.version>
         <logback.core.version>1.0.13</logback.core.version>
         <maven.antrun.plugin.version>1.7</maven.antrun.plugin.version>
         <maven.artifact.version>2.0</maven.artifact.version>
