@@ -114,7 +114,7 @@
         <jersey.version>2.17</jersey.version>
         <jettison.version>1.3.6</jettison.version>
         <jetty.maven.plugin.version>9.2.0.v20140526</jetty.maven.plugin.version>
-        <jetty.version>9.2.13.v20150730</jetty.version>
+        <jetty.version>9.4.39.v20210325</jetty.version>
         <jimfs.version>1.0</jimfs.version>
         <joda.time.version>2.4</joda.time.version>
         <jsonassert.version>1.2.3</jsonassert.version>
@@ -122,7 +122,7 @@
         <jstl.version>1.2</jstl.version>
         <junit.dataprovider.version>1.5.0</junit.dataprovider.version>
         <junit.version>4.12</junit.version>
-        <logback.version>1.1.2</logback.version>
+        <logback.version>1.2.0</logback.version>
         <logback.core.version>1.0.13</logback.core.version>
         <maven.antrun.plugin.version>1.7</maven.antrun.plugin.version>
         <maven.artifact.version>2.0</maven.artifact.version>
@@ -158,7 +158,7 @@
         <snapshotRepositoryUrl>PleaseEnterYourSnapshotRepositoryUrl</snapshotRepositoryUrl>
         <sonar.maven.plugin.version>3.1.1</sonar.maven.plugin.version>
         <source>1.8</source>
-        <spring.version>4.2.3.RELEASE</spring.version>
+        <spring.version>5.2.15.RELEASE</spring.version>
         <surefire.plugin.version>2.18.1</surefire.plugin.version>
         <thucydides.version>0.9.268</thucydides.version>
         <urlrewritefilter.version>4.0.3</urlrewritefilter.version>
@@ -752,7 +752,7 @@
             <id>Docker-Linux</id>
             <properties>
                 <docker.host>unix:///var/run/docker.sock</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
         <profile>
@@ -766,14 +766,14 @@
             <id>Docker-HyperV</id>
             <properties>
                 <docker.host>tcp://localhost:2375</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
         <profile>
             <id>Docker-MacOS-HyperV</id>
             <properties>
                 <docker.host>unix:///var/run/docker.sock</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
     </profiles>
