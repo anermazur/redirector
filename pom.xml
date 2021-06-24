@@ -114,7 +114,7 @@
         <jersey.version>2.17</jersey.version>
         <jettison.version>1.3.6</jettison.version>
         <jetty.maven.plugin.version>9.2.0.v20140526</jetty.maven.plugin.version>
-        <jetty.version>9.2.13.v20150730</jetty.version>
+        <jetty.version>9.4.41.v20210516</jetty.version>
         <jimfs.version>1.0</jimfs.version>
         <joda.time.version>2.4</joda.time.version>
         <jsonassert.version>1.2.3</jsonassert.version>
@@ -752,7 +752,7 @@
             <id>Docker-Linux</id>
             <properties>
                 <docker.host>unix:///var/run/docker.sock</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
         <profile>
@@ -766,14 +766,14 @@
             <id>Docker-HyperV</id>
             <properties>
                 <docker.host>tcp://localhost:2375</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
         <profile>
             <id>Docker-MacOS-HyperV</id>
             <properties>
                 <docker.host>unix:///var/run/docker.sock</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
     </profiles>
