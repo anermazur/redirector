@@ -95,7 +95,7 @@
         <commons.collections.version>3.2.1</commons.collections.version>
         <commons.configuration.version>1.10</commons.configuration.version>
         <commons.lang.version>3.3.2</commons.lang.version>
-        <commons.net.version>3.1</commons.net.version>
+        <commons.net.version>3.9.0</commons.net.version>
         <commons.validator.version>1.4.1</commons.validator.version>
         <curator.version>2.10.0</curator.version>
         <curator.x.discovery.server.version>2.4.2</curator.x.discovery.server.version>
